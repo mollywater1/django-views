@@ -23,7 +23,5 @@ class FlatPageAdmin(FlatPageAdmin):
 
 
 # Re-register FlatPageAdmin
-admin.site.unregister(FlatPage)
-admin.site.register(FlatPage, FlatPageAdmin)
 admin.site.register(Category)
 admin.site.register(Product)
